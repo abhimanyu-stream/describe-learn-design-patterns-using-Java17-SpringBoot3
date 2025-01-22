@@ -24,7 +24,7 @@ public class ShoppingMall {
         this.bankCard = bankCard;
     }
 
-    public void doPurchaseSomething(long amount){
+    public void purchaseSomething(long amount){
         bankCard.doTransaction(amount);
     }
 
@@ -34,7 +34,7 @@ public class ShoppingMall {
 
         BankCard bankCard=new CreditCard();
         ShoppingMall shoppingMall=new ShoppingMall(bankCard);
-        shoppingMall.doPurchaseSomething(5000);
+        shoppingMall.purchaseSomething(5000);
 
 
 

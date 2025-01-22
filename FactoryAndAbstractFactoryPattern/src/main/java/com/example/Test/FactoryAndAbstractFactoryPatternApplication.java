@@ -26,8 +26,11 @@ public class FactoryAndAbstractFactoryPatternApplication {
 		archer.attack();
 		archer.defence();
 
-
-
+		//Abstract Factory Patter Implementation
+		CharacterFactory factoryC = new ArcherFactory();
+		Character character1 = factoryC.createCharacter();
+		character1.attack();
+		character1.defence();
 
 		//Abstract Factory Patter Implementation
 		CharacterFactory factory = new WarriorFactory();

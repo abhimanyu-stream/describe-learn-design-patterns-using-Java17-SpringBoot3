@@ -10,6 +10,7 @@ public class PaymentProcessorFactory {
     private final PaypalPaymentProcessor paypalPaymentProcessor;
 
 
+    @AutoWired
     public PaymentProcessorFactory(CreditCardPaymentProcessor creditCardPaymentProcessor,
                                    PaypalPaymentProcessor paypalPaymentProcessor) {
         this.creditCardPaymentProcessor = creditCardPaymentProcessor;

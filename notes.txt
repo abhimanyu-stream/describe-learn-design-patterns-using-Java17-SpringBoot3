@@ -1,0 +1,9 @@
+flyway
+decorator
+composite
+builder
+
+
+
+https://java-design-patterns.com/patterns/
+

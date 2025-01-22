@@ -50,3 +50,8 @@ public class BadCode {
 
 
 }
+//single_responsibility
+//open_closed
+//liskov_substitution
+//interface_segregation
+//dependency_inversion
